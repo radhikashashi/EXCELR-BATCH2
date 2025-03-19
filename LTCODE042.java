@@ -13,7 +13,7 @@
       }
   }
  
-class Solution {
+class LTCODE042 {
     public TreeNode pruneTree(TreeNode root) {
         if (root == null) return null; 
         root.left = pruneTree(root.left); 
